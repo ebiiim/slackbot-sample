@@ -37,6 +37,15 @@ API Tokenを以下のように`secret.toml`に書いてルートディレクト�
 api_token = 'xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
+```
+slackbot-sample/
+├── config.toml
+├── README.md
+├── requirements.txt
+├── run.py
+└── secret.toml
+```
+
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig3.PNG)
 
 ### 5. Start bot
@@ -48,13 +57,13 @@ botをチャンネルに追加してあげないと発言できないです。
 
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig4.PNG)
 
-メンションで`help`などを送りつけます。
+メンションでコマンドを送りつけます。(e.g. `help` `kill you`)
 
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig5.PNG)
 
 ### 7. Create your own bot!
 
-お好みのコマンドを追加してください。
+お好みの機能を実装してください。
 
 ## Reference
 - 全体的にこちらを参考にしました [How to Build Your First Slack Bot with Python - Full Stack Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
