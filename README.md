@@ -39,18 +39,21 @@ api_token = 'xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
 
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig3.PNG)
 
-### Start bot
+### 5. Start bot
 `$ python run.py`
 
-### Send a command
+### 6. Send a command
 
 botをチャンネルに追加してあげないと発言できないです。
 
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig4.PNG)
 
-お好みのコマンドを追加してください。
-
+メンションで`help`などを送りつけます。
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig5.PNG)
+
+### 7. Create your own bot!
+
+お好みのコマンドを追加してください。
 
 ## Reference
 - 全体的にこちらを参考にしました [How to Build Your First Slack Bot with Python - Full Stack Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
