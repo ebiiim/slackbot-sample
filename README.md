@@ -22,11 +22,11 @@
 ### 3. Add a bot user
 [Bot Users - Slack](https://api.slack.com/bot-users)にある[creating a new bot user](https://my.slack.com/services/new/bot)のリンクをクリックします。
 
-![](./docs/fig1.png)
+![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig1.PNG)
 
 botに名前を付けたら`Add integration`をクリックします。
 
-![](./docs/fig2.png)
+![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig2.PNG)
 
 ### 4. secret.toml
 
@@ -37,7 +37,7 @@ API Tokenを以下のように`secret.toml`に書いてルートディレクト�
 api_token = 'xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
-![](./docs/fig3.png)
+![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig3.PNG)
 
 ### Start bot
 `$ python run.py`
@@ -46,11 +46,11 @@ api_token = 'xoxb-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
 
 botをチャンネルに追加してあげないと発言できないです。
 
-![](./docs/fig4.png)
+![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig4.PNG)
 
 お好みのコマンドを追加してください。
 
-![](./docs/fig5.png)
+![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig5.PNG)
 
 ## Reference
 - 全体的にこちらを参考にしました [How to Build Your First Slack Bot with Python - Full Stack Python](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
