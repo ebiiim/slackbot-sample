@@ -1,8 +1,0 @@
-[common]
-rtm_interval = 1  # sec
-
-[bot]
-res_default = '((☛(◜◔。◔◝)☚))ここ大丈夫ですか～～～？？？ '  # 未定義のコマンドに対する返答
-res_help = '`コマンド 内容` でメンションしてください。e.g. `kill someone`'
-res_kill_you = '思い上がるなよ、小童 (╬ ◠‿◠ )▄︻┻┳══━'
-res_kill = 'いってくる ┗(☋｀ )┓'
