@@ -10,7 +10,7 @@ SECRET = toml.load(open('secret.toml', encoding='utf-8'))
 # 認証後に代入する
 bot_id = None
 
-# A handler which displays logs to console
+# ログの設定(ログはコンソールに表示する)
 logging.getLogger().setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
@@ -69,8 +69,7 @@ if __name__ == '__main__':
     RTM_READ_DELAY = CONFIG['common']['rtm_interval']
     if sc.rtm_connect():
         logging.info('Bot connected and running!')
-        # Read bot's user ID by calling Web API method <auth.test>
-        bot_id = sc.api_call("auth.test")["user_id"]
+        bot_id = sc.api_call("auth.test")["user_id"]  # botのuser IDを取得する
         while True:  # コマンド待ち
             cmd, channel = parse_slack_cmd(sc.rtm_read())
             if cmd and channel:
