@@ -49,6 +49,7 @@ botをチャンネルに追加してあげないと発言できないです。
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig4.PNG)
 
 メンションで`help`などを送りつけます。
+
 ![](https://raw.githubusercontent.com/ebiiim/slackbot-sample/images/fig5.PNG)
 
 ### 7. Create your own bot!
