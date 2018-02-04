@@ -42,7 +42,6 @@ def handle_command(cmd, channel):
     :return: サーバの応答(Slackの対象チャンネルにコマンドの実行結果を投稿した結果)
     """
     response = CONFIG['bot']['res_default']
-    print(cmd)
     if cmd.startswith(('help', '-h', '--help', '使い方', 'a')):
         response = CONFIG['bot']['res_help']
     elif cmd.startswith('kill'):
